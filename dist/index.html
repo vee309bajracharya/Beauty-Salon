@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessica's Salon</title>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="../dist/style.css">
+
+</head>
+
+<body>
+  <!-- ==== Header section starts ==== -->
+
+  <!-- === navbar starts === -->
+  <nav class="w-full h-20 bg-white flex justify-between px-6 md:p-12 mx-auto items-center drop-shadow-xl sticky">
+    <div>
+      <img class="h-16 my-2" src="../icons/salon-logo.png">
+    </div>
+    <ul class="md:flex hidden font-medium uppercase">
+      <li class="mx-[10px] cursor-pointer">About</li>
+      <li class="mx-[10px] cursor-pointer">Services</li>
+      <li class="mx-[10px] cursor-pointer">Prices</li>
+      <li class="mx-[10px] cursor-pointer">Brochures</li>
+      <li class="mx-[10px] cursor-pointer">Contact</li>
+    </ul>
+    <div
+      class="hidden md:block px-5 py-2 bg-pink-800 hover:bg-pink-300 hover:text-black text-white rounded-full cursor-pointer">
+      Login/Signup</div>
+    <div class="md:hidden"><a href="#" class="text-4xl">&#8801;</a></div>
+  </nav>
+  <!-- === navbar ends === -->
+
+  <!-- === Billboard section starts === -->
+  <header class="bg-pink-300 w-full">
+    <div class="block md:flex justify-between gap-3 md:items-center">
+
+      <div class="w-full p-3 md:p-11 text-center md:text-left">
+        <h3 class="text-rose-950 text-[50px] md:text-6xl font-bold my-7">Your Style,<span><br>Our Expertise</span></h3>
+        <p class="text-amber-950 text-[15px] md:text-[20px] font-semibold md:max-w-full">We work not to simply meet your
+          needs, our expert stylists create
+          <br>professional works of art and try to exceed your expectations.
+        </p>
+        <button class="bg-pink-800 text-white my-8 px-5 py-3 rounded-3xl">Make a Booking</button>
+      </div>
+
+      <div class="h-auto md:w-[80%]">
+        <img class="flex-col-reverse md:flex" src="../img/model-pic.png">
+      </div>
+
+    </div>
+  </header>
+  <!-- === Billboard section ends === -->
+  <!-- ==== Header section ends ==== -->
+
+  <!-- ======================================================================================= -->
+
+  <!-- === About section starts === -->
+  <section class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+    <div class="w-full h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+
+      <h3 class=" text-gray-700 font-bold text-[20px] md:text-3xl font-serif">Visit our salon to experience the sense of
+        beauty and style!</h3>
+
+      <p class="my-8 text-gray-500 text-[15px] md:text-[20px] font-normal">Jessica's Salon is a luxury hair salon
+        strives to create works of arts applying the latest trends in hair <br>
+        styling,design and coloring for both men and women at fine prices. We are committed to <br>
+        improving your natural beauty with every visit.</p>
+
+    </div>
+  </section>
+
+  <!-- === About section ends === -->
+  <!-- ===================================================================== -->
+
+  <!-- === Services section starts === -->
+  <section class="text-center w-full h-auto bg-orange-50">
+
+    <div class="p-10 mt-4">
+      <h3 class=" text-black font-bold text-[30px] md:text-4xl font-serif">Services we offer</h3>
+    </div>
+
+    <div class="p-20 flex flex-col justify-between items-center gap-12 md:flex md:flex-row">
+
+      <div class="w-full">
+        <img class="h-[500px] object-cover md:w-full" src="../img/hair-cuts.jpg" alt="" srcset="">
+        <p class="bg-white w-50 text-center text-[20px] font-serif font-medium">Hair Cuts</p>
+      </div>
+
+      <div class="w-full">
+        <img class="h-[500px] w-full object-cover md:w-full" src="../img/hair-coloring.jpg" alt="" srcset="">
+        <p class="bg-white w-50 text-center text-[20px] font-serif font-medium">Hair Coloring</p>
+      </div>
+
+      <div class="w-full">
+        <img class="h-[500px] object-cover md:w-full" src="../img/hair-styling.jpg" alt="" srcset="">
+        <p class="bg-white w-50 text-center text-[20px] font-serif font-medium">Hair Styling</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- === Services section ends === -->
+  <!-- ============================================================ -->
+
+  <!-- === Offers section starts === -->
+  <section class="w-full h-auto">
+
+    <div class="text-center py-6">
+      <div class="my-5">
+        <h3 class="text-[25px] font-serif font-semibold md:text-[30px]">Special offers</h3>
+      </div>
+    </div>
+
+    <div class="mt-5 px-20 grid md:grid-cols-3 gap-10">
+
+      <!-- Card goes here -->
+      <div class="bg-white rounded-lg drop-shadow-lg cursor-pointer">
+        <div>
+          <img class="w-full h-auto" src="../img/offers-pic-1.jpg" alt="">
+        </div>
+        <div class="p-3 items-center">
+          <h5 class="my-4 text-gray-600 font-serif font-bold text-[25px]">New Clients</h5>
+          <p class="text-[15px]">We welcome new clients. Come visit us for the first time and receive 25% off your first
+            appointment.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg drop-shadow-lg cursor-pointer">
+        <div>
+          <img class="w-full h-auto" src="../img/offers-pic-2.jpg" alt="">
+        </div>
+        <div class="p-3">
+          <h5 class="my-4 text-gray-600 font-serif font-bold text-[25px]">Student Discount</h5>
+          <p class="text-[15px]">Get 10% off on any service for a student (don't forget your student's card).</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg drop-shadow-lg cursor-pointer">
+        <div>
+          <img class="w-full" src="../img/offers-pic-3.jpg" alt="">
+        </div>
+        <div class="p-3">
+          <h5 class="my-4 text-gray-600 font-serif font-bold text-[25px]">Referral System</h5>
+          <p class="text-[15px]">Refer a friend to Parfois Salon and receive up to 10% off your next visit.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg drop-shadow-lg cursor-pointer">
+        <div>
+          <img class="w-full" src="../img/offers-pic-4.jpg" alt="">
+        </div>
+        <div class="p-3">
+          <h5 class="my-4 text-gray-600 font-serif font-bold text-[25px]">Senior Citizens</h5>
+          <p class="text-[15px]">Senior citizens can enjoy 25% off on all services. Offer available Monday to Wednesday.</p>
+        </div>
+      </div>
+  
+      <div class="bg-white rounded-lg drop-shadow-lg cursor-pointer">
+        <div>
+          <img class="w-full" src="../img/offers-pic-5.jpg" alt="">
+        </div>
+        <div class="p-3">
+          <h5 class="my-4 text-gray-600 font-serif font-bold text-[25px]">Keratin Treatment</h5>
+          <p class="text-[15px]">Get 15% off mini Keratin treatment to help fight frizz for a few weeks, including a blowout.</p>
+        </div>
+      </div>
+  
+      <div class="bg-white rounded-lg drop-shadow-lg cursor-pointer">
+        <div>
+          <img class="w-full" src="../img/offers-pic-6.jpg" alt="">
+        </div>
+        <div class="p-3">
+          <h5 class="my-4 text-gray-600 font-serif font-bold text-[25px]">Kids' Thursday</h5>
+          <p class="text-[15px]">Get up to 30% off for kids under 14 every Thursday.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- === Offers section ends === -->
+  <!-- ==================================================== -->
+
+
+
+</body>
+
+</html>
