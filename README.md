@@ -11,3 +11,7 @@ Please Note:
     It represents a single page rather than a full-fledged website.
 
 Feel free to explore the code, get insights into the Tailwind CSS implementation, and discover Jessica's Salon.
+
+
+Preview Link :
+   https://vee309bajracharya.github.io/Beauty-Salon/dist/index.html
